@@ -2,7 +2,6 @@ import { html, fixture, expect } from '@open-wc/testing';
 import '../src/Customer/Customer-details.js';
 import { localize } from '@lion/localize';
 import Sinon, { stub } from 'sinon';
-import  '../src/Customer/Customer-details.js';
 
 describe('customer details', () => {
   // Write test cases inside this block
